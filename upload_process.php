@@ -9,7 +9,7 @@
   <div class="form_wrapper">
     <p class="title">필터링 결과</p>
 <?php
-$db_conn = mysqli_connect("211.108.154.160","ncoa", "ncoa!!thanks", "pbl19");
+$db_conn = mysqli_connect("","", "", "");
 
 //파일의 유효성
 if(isset($_FILES["upfile"]) && $_FILES["upfile"]["name"] != "") {
