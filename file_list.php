@@ -20,7 +20,7 @@
 <?php
 //delete from upload_video;
 
-$db_conn = mysqli_connect("211.108.154.160","ncoa", "ncoa!!thanks", "pbl19");
+$db_conn = mysqli_connect("","", "", "");
 
 $query = "SELECT file_id, name_orig, name_save FROM upload_video ORDER BY reg_time DESC";
 
