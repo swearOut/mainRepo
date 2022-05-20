@@ -2,7 +2,7 @@
 
 $file_id = $_REQUEST['file_id'];
 
-$db_conn = mysqli_connect("211.108.154.160","ncoa", "ncoa!!thanks", "pbl19");
+$db_conn = mysqli_connect("","ncoa", "", "");
 
 $query = "SELECT file_id, name_orig, name_save FROM upload_video WHERE file_id = ?";
 
